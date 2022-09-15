@@ -2,6 +2,7 @@ body {@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,4
     font-family: 'Roboto', sans-serif;}
 
     h1,h2,h3,h4,h5,h6 {background-color: yellow;}
-footer {color: white; background-color: black; }
+    footer f {color: white; background-color: black; }
+    footer p {background-color:yellow;}
 h6  ol  ul li {background-color: yellow;}
-footer p {background-color: yellow;}
+
