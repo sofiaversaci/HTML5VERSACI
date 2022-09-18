@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700;900&display=swap');
 
+body {background-color:beige;font-family: 'Roboto', sans-serif;
+    font-weight:400;}
 h3,h4,h5,h6 {background-color: yellow;}
     footer f {color: white; background-color: black; }
     footer p {background-color:yellow;}
@@ -13,5 +15,5 @@ h3 p {font-family: 'Roboto', sans-serif; font-size:32px;}
 section h4,h5 {font-family: 'Roboto', sans-serif; font-size:35px;}
 h4 p, h5 p {font-family: 'Roboto', sans-serif; font-size:28px;}
 main h6 strong {font-family:'Roboto', sans-serif; font-size:55px;}
-
+h5 strong {font-weight: 900;}
 
