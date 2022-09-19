@@ -3,11 +3,10 @@
 
 body {background-color:beige;font-family: 'Roboto', sans-serif;
     font-weight:400;}
-h3,h4,h5,h6 {background-color: yellow;}
+h3,h4,h5,h6, strong li {background-color: yellow;}
     footer f {color: white; background-color: black; }
     footer p {background-color:yellow;}
-h6  ol  ul li {background-color: yellow;}
-
+h6 strong {font-size: 50px;}
 header h1 {font-family:'Coiny', cursive; font-size:56px;}
 h2 x {font-family:'Coiny', cursive; font-size:117px;}
 h1 f {font-family:'Roboto', sans-serif; font-size:64px;}
