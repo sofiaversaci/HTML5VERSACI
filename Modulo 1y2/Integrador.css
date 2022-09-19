@@ -18,4 +18,5 @@ h4 p, h5 p {font-family: 'Roboto', sans-serif; font-size:28px;}
 main h6 strong {font-family:'Roboto', sans-serif; font-size:55px;}
 h5 strong {font-weight: 900;}
 
-
+footer h1 {color: black;background-color: yellow;font-family:'Roboto', sans-serif;font-size: 28px}
+footer h1 strong {font-family: 'Coiny', cursive;font-size: 44px;}
