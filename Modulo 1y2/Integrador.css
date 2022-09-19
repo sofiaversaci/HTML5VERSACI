@@ -21,4 +21,4 @@ h5 strong {font-weight: 900;}
 footer h1 {color: black;background-color: yellow;font-family:'Roboto', sans-serif;font-size: 28px}
 footer h1 strong {color:black; font-family:'Coiny', cursive;font-size: 44px; text-decoration: none;}
 img{width: 32px; height: auto;}
-div p {color: gray; font-family: 'Roboto', sans-serif; font: size 32px;}
+div p {color: gray; font-family: 'Roboto', sans-serif; font-size:32px;font-weight: 300;}
