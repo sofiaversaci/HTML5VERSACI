@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700;900&display=swap');
 
-
+h1 {border-top: yellow; border-top-width: 10px;border-top-style: solid;}
 body {background-color:beige;font-family: 'Roboto', sans-serif;
     font-weight:400;}
 h3,h4,h5,h6, strong li {background-color: yellow;}
