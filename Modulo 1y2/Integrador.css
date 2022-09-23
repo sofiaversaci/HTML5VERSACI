@@ -22,6 +22,6 @@ footer h1 strong {color:black; font-family:'Coiny', cursive;font-size: 44px; tex
 h2 img{margin-left:1000px; width: 32px; height: auto;}
 div p {color: gray; font-family: 'Roboto', sans-serif; font-size:32px;font-weight: 300;}
 div p img {margin-left: 100px;}
-nav li {color: grey; margin-left: 1000px;}
+nav li {color: grey; margin-left:auto;text-decoration: none;}
 ol {font-size: 2em;font-weight: 400; list-style-position: inside;}
 form button {color: white; font-family: 'Roboto', sans-serif; font-size:32px;background-color: black;}
