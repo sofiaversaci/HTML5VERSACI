@@ -1,17 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700;900&display=swap');
 
-h1 {border-top: yellow; border-top-width: 10px;border-top-style: solid;}
-body {background-color:beige;font-family: 'Roboto', sans-serif;
-    font-weight:400;}
-h3,h4,h5,h6, strong li {background-color: yellow;}
-    footer f {color: white; background-color: black; }
-    footer p {background-color:yellow;}
+body {background-color:beige;font-family: 'Roboto', sans-serif;font-weight:400;font-size: 22px;
+    margin: 0px}
+nav h1 {font-family:'Coiny', cursive; font-size: 56px; border-top: yellow; border-top-width: 5px;border-top-style: solid;}
+
+nav a {margin-left: 20px; text-decoration: none; color: gray;}
+nav a:hover {text-decoration: underline;}
+
+h1 {font-size:64px;}
+
+h1 strong {font-family: 'Coiny', cursive; font-size: 117.33px; font-weight: 700;}
+
+h2 {font-weight: 400; font-size: 26.66px; background-color:yellow;}
+
+h2 p {font-family: 'Roboto', sans-serif; font-size:32px;}
+
+h3 {font-weight: 900; background-color:yellow;}
+
+h6 {font-size:60px; margin: 0; color:white; background-color:black; line-height: 80px;display: inline;}
+
+footer {font-family:'Coiny'; color:black; background-color: yellow;}
+footer a {font-family: 'Roboto' sans-serif ; text-decoration: none; color: black; background-color: yellow;}
+
+
+
 h6 strong {font-size: 50px;}
-header h1 {font-family:'Coiny', cursive; font-size:56px;}
-h2 x {font-family:'Coiny', cursive; font-size:117px;}
-h1 f {font-family:'Roboto', sans-serif; font-size:64px;}
+
+
+
 h3 {font-family: 'Roboto', sans-serif; font-size:27px;}
-h3 p {font-family: 'Roboto', sans-serif; font-size:32px;}
+
 section h4,h5 {font-family: 'Roboto', sans-serif; font-size:35px;}
 h4 p, h5 p {font-family: 'Roboto', sans-serif; font-size:28px;}
 main h6 strong {font-family:'Roboto', sans-serif; font-size:55px;}
