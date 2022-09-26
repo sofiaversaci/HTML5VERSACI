@@ -19,27 +19,20 @@ h3 {font-weight: 900; background-color:yellow;}
 
 h6 {font-size:60px; margin: 0; color:white; background-color:black; line-height: 80px;display: inline;}
 
-footer {font-family:'Coiny'; color:black; background-color: yellow;}
-footer a {font-family: 'Roboto' sans-serif ; text-decoration: none; color: black; background-color: yellow;}
-
-
-
-h6 strong {font-size: 50px;}
-
-
-
-h3 {font-family: 'Roboto', sans-serif; font-size:27px;}
-
-section h4,h5 {font-family: 'Roboto', sans-serif; font-size:35px;}
-h4 p, h5 p {font-family: 'Roboto', sans-serif; font-size:28px;}
-main h6 strong {font-family:'Roboto', sans-serif; font-size:55px;}
-h5 strong {font-weight: 900;}
-
-footer h1 {color: black;background-color: yellow;font-family:'Roboto', sans-serif;font-size: 28px}
-footer h1 strong {color:black; font-family:'Coiny', cursive;font-size: 44px; text-decoration: none;}
-h2 img{margin-left:1000px; width: 32px; height: auto;}
-div p {color: gray; font-family: 'Roboto', sans-serif; font-size:32px;font-weight: 300;}
-div p img {margin-left: 100px;}
-nav li {color: grey; margin-left:auto;text-decoration: none;}
+footer {font-size: 44px; font-family:'Coiny'; color:black; background-color: yellow;}
+footer a {width: 1px; font-size: 28px; display: inline; font-family: 'Roboto' sans-serif ; text-decoration: none; color: black; background-color: yellow;}
+img {width: 100%;} 
 ol {font-size: 2em;font-weight: 400; list-style-position: inside;}
-form button {color: white; font-family: 'Roboto', sans-serif; font-size:32px;background-color: black;}
+ul{list-style: none; margin: 0; padding: 0;}
+.item {font-size: 36px;font-weight: bold;background-color: #fcee21;}
+span{color: red;}
+input{height: 40px;}
+input, textarea {width: 100%; margin-bottom: 20px;}
+label {font-size: 24px;font-weight: bold; display: block;}
+
+.boton{width: auto;background-color: black;color: #fff;font-family: 'Roboto', sans-serif; font-weight: bold;}
+
+#titulo {font-size: 36px;text-transform: uppercase;font-weight: bold;}
+#redes {font-size: 30px;font-weight: bold; color: #808080;}
+
+section{width: 45%;}
