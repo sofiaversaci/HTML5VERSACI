@@ -38,3 +38,4 @@ label {font-size: 24px;font-weight: bold; display: block;}
 #redes {font-size: 30px;font-weight: bold; color: #808080;}
 
 section{width: 45%;}
+.imagenpartida {display:flex; justify-content: space-between;}
