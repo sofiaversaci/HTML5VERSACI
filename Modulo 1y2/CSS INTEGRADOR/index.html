@@ -6,31 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WWWapas</title>
-    <link rel="stylesheet" href="C:\Users\sofia\OneDrive\Escritorio\github\HTML5VERSACI\Modulo 1y2\CSS INTEGRADOR\Integrador.css">
- <body>
+    <link rel="stylesheet"
+        href="C:\Users\sofia\OneDrive\Escritorio\github\HTML5VERSACI\Modulo 1y2\CSS INTEGRADOR\Integrador.css">
+
+<body>
     <nav>
         <h1>wwwapas</h1>
-             <ul>
-                <li>
-                    <a href="#">Inicio</a>
-                    <a href="#servicios">Servicios</a>
-                    <a href="#contactos">Contactos</a>
-                </li>
-            </ul>
-        </nav>
-       <header>
+        <ul>
+            <li>
+                <a href="#">Inicio</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#contactos">Contactos</a>
+            </li>
+        </ul>
+    </nav>
+    <header class="columnas">
         <section>
-            <h1>Somos <strong>wwwapas</strong></h1>                         
+            <h1>Somos <strong>wwwapas</strong></h1>
             <h2>Social media managers | creadoras de contenido </h2>
             <p>Nos encargamos de construir, gestionar y administrar la comunidad
-            online de tu marca, empresa o negocio <strong>¡Creamos relaciones estables y duraderas con tus clientes!</strong></p>
-      </section>
+                online de tu marca, empresa o negocio <strong>¡Creamos relaciones estables y duraderas con tus
+                    clientes!</strong></p>
+        </section>
 
         <section>
-          <img src="C:\Users\sofia\OneDrive\Escritorio\github\HTML5VERSACI\Imagenes\foto.png">
-
+            <img src="C:\Users\sofia\OneDrive\Escritorio\github\HTML5VERSACI\Imagenes\foto.png">
         </section>
         <main>
+            <div class="columnas">
                 <h3>Hola! Somos SOFI & JULIA</h3>
                 <p>Las social media managers, las creadoras de contenido, las
                     copywriters, las generadoras de leads, las diseñadoras, las
@@ -44,74 +47,82 @@
                     es donde podemos asistirte. Armamos estrategias a medida
                     para tu empresa, marca o producto <strong>Aumentá tu presencia
                         digital y generá nuevas ventas y contactos!</strong></p>
-         </section>
-        
-         <section class="imagenpartida">
-        <img src="C:\Users\sofia\OneDrive\Escritorio\github\HTML5VERSACI\Imagenes\img-servicios.png" alt="img-servicios"></div>
-        </section>
+            </div>
+            </section>
 
-        <section class="imagenpartida">
-        <h5>Servicios</h5>
-        <a id="servicios"></a>
-        <ol>
-            <li>Análisis de perfil (Benchmarking)</li>
-            <li>Revisión y activación de canales</li>
-            <li>Gestión, creación y diseño de contenido</li>
-            <li>Respuestas a mensajes y consultas</li>
-            <li>Segmentación de promociones según el público objetivo de la pauta publicitaria </li>
-            <li>Diagramamos un calendario que se ajuste a los objetivos de la empresa</li>
-  
-        </ol> 
-        <ol class="item" start="7">
-        <li>¡Empezamos a comunicar!</li>
-        </ol>
-        </section>
-   
+            <div class="columnas">
+                <section id="allado">
+                    <img src="C:\Users\sofia\OneDrive\Escritorio\github\HTML5VERSACI\Imagenes\img-servicios.png"
+                        alt="img-servicios">
+            </div>
+            </section>
+
+            <section id="allado">
+                <h5 id="titulo">Servicios</h5>
+                <a id="servicios"></a>
+                <ol>
+                    <li>Análisis de perfil (Benchmarking)</li>
+                    <li>Revisión y activación de canales</li>
+                    <li>Gestión, creación y diseño de contenido</li>
+                    <li>Respuestas a mensajes y consultas</li>
+                    <li>Segmentación de promociones según el público objetivo de la pauta publicitaria </li>
+                    <li>Diagramamos un calendario que se ajuste a los objetivos de la empresa</li>
+
+                </ol>
+                <ol class="item" start="7">
+                    <li>¡Empezamos a comunicar!</li>
+                </ol>
+            </section>
+            <div class="columnas">
+            <section>
+                <a id="contactos"></a>
+                <h6>¿Querés que nos contactemos con vos?</h6>
+                <p class="item">Envianos tu consulta >></p>
+            </div>
+            </section>
+
+            <section>
+                <form action="codigo.php" method="post">
+                    <label>Nombre <span>*</span></label> <br>
+                    <input required type="text" placeholder="Juan Gomez" name="Nombre Completo"> <br><br>
+                    <label>Email <span>*</span></label><br>
+                    <input required type="email" placeholder="info@wwapas.com.ar" name="Email"><br><br>
+                    <label>Mensaje <span>*</span></label><br>
+                    <textarea name="text" id="" cols="30" rows="10"></textarea>
+                    </label>
+                    <div>
+                        <input class="boton" type="submit" value="Enviar Consulta">
+                        <input class="boton" type="reset" value="Borrar">
+                    </div>
+                </form>
+        </main>
         <section>
-        <a id="contactos"></a>
-        <h6>¿Querés que nos contactemos con vos?</h6>
-        <p class="item">Envianos tu consulta >></p>
+            <div id="redes">
+                <p>redes <br>wwwapas</p>
+            </div>
+
+            <div>
+                <a title="instagram-icon" href="https://www.instagram.com/?hl=es" target="_blank">
+                    <img src="C:\Users\sofia\OneDrive\Escritorio\github\HTML5VERSACI\Imagenes\instagram-icon.png"
+                        alt="instagram-icon" style="width:10%;height:auto;"></a>
+
+                <a title="dribbble-icon" href="https://dribbble.com/" target="_blank">
+                    <img src="C:\Users\sofia\OneDrive\Escritorio\github\HTML5VERSACI\Imagenes\dribbble-icon.png"
+                        alt="dribbble-icon" style="width:10%;height:auto;"></a>
+
+                <a title="linkedin-icon" href="https://www.linkedin.com/feed/" target="_blank">
+                    <img src="C:\Users\sofia\OneDrive\Escritorio\github\HTML5VERSACI\Imagenes\linkedin-icon.png"
+                        alt="linkedin-icon" style="width:10%;height:auto;"></a>
+
+                <a title="facebook-icon" href="https://es-la.facebook.com/" target="_blank">
+                    <img src="C:\Users\sofia\OneDrive\Escritorio\github\HTML5VERSACI\Imagenes\facebook-icon.png"
+                        alt="facebook-icon" style="width:10%;height:auto;"></a>
+            </div>
         </section>
 
-     <section>
-    <form action="codigo.php" method="post">
-    <label>Nombre <span>*</span></label> <br>
-    <input required type="text" placeholder="Juan Gomez" name="Nombre Completo"> <br><br>
-    <label>Email <span>*</span></label><br>
-    <input required type="email" placeholder="info@wwapas.com.ar"name="Email"><br><br>
-    <label>Mensaje <span>*</span></label><br> 
-    <textarea name="text" id="" cols="30" rows="10"></textarea>
-    </label>
-    <div>
-        <input class="boton" type="submit" value="Enviar Consulta">
-        <input class="boton" type="reset" value="Borrar">
-    </div>
-    </form>
-</main>
-<section>
-    <div id="redes">
-    <p>redes <br>wwwapas</p> 
-    </div>
-
-    <div>
-    <a title="instagram-icon" href="https://www.instagram.com/?hl=es" target="_blank">           
-    <img src="C:\Users\sofia\OneDrive\Escritorio\github\HTML5VERSACI\Imagenes\instagram-icon.png" alt="instagram-icon"style="width:10%;height:auto;"></a>
-   
-    <a title="dribbble-icon" href="https://dribbble.com/" target="_blank">
-    <img src="C:\Users\sofia\OneDrive\Escritorio\github\HTML5VERSACI\Imagenes\dribbble-icon.png"  alt="dribbble-icon" style="width:10%;height:auto;"></a>
-   
-    <a title="linkedin-icon" href="https://www.linkedin.com/feed/" target="_blank">
-    <img src="C:\Users\sofia\OneDrive\Escritorio\github\HTML5VERSACI\Imagenes\linkedin-icon.png"  alt="linkedin-icon"style="width:10%;height:auto;"></a>
-   
-   <a title="facebook-icon" href="https://es-la.facebook.com/" target="_blank">
-    <img src="C:\Users\sofia\OneDrive\Escritorio\github\HTML5VERSACI\Imagenes\facebook-icon.png"  alt="facebook-icon"style="width:10%;height:auto;"></a>
-</div>
-</section>
-
-<footer>
-    <h1><strong>wwwapas</strong> <a href="mailito:wwwapas_sm@gmail.com"> wwwapas_sm@gmail.com</a></h1>
-    </footer>
+        <footer>
+            <h1><strong>wwwapas</strong> <a href="mailito:wwwapas_sm@gmail.com"> wwwapas_sm@gmail.com</a></h1>
+        </footer>
 </body>
+
 </html>
-
-

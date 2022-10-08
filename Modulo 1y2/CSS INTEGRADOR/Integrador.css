@@ -2,35 +2,42 @@
 
 * {box-sizing: border-box;}
 
-body {background-color:beige;font-family: 'Roboto', sans-serif;font-weight:400;font-size: 22px;
+body {background-color: beige;font-family: 'Roboto', sans-serif;font-weight:400;font-size: 22px;
     margin: 0px}
-nav h1 {font-family:'Coiny', cursive; font-size: 56px; border-top: yellow; border-top-width: 5px;border-top-style: solid;}
-
+h1 {font-size:64px;}
+h1 strong {font-family: 'Coiny', cursive; font-size: 117.33px;}
+h1,strong {font-weight: 700;font-family: 'Coiny', cursive;} 
+h2 {font-weight: 400; font-size: 26.66px; background-color:yellow;}
+h2 p {font-family: 'Roboto', sans-serif; font-size:32px;}
+h3 {font-weight: 900; background-color:yellow;}
+h6 {font-size:60px; margin: 0; color:white; background-color:black; line-height: 80px;display: inline;}
+#titulo {font-size: 36px;text-transform: uppercase;font-weight: bold;}
+ul {width: 100%;display: flex; justify-content: flex-end; align-items: flex-start; padding: 0px; margin: 20px; list-style: none;}
+nav h1 {margin-right: auto; font-family:'Coiny', cursive; font-size: 56px; border-top: yellow; border-top-width: 5px;border-top-style: solid;}
 nav a {margin-left: 20px; text-decoration: none; color: gray;}
 nav a:hover {text-decoration: underline;}
-
-h1 {font-size:64px;}
-
-h1 strong {font-family: 'Coiny', cursive; font-size: 117.33px; font-weight: 700;}
-
-h2 {font-weight: 400; font-size: 26.66px; background-color:yellow;}
-
-h2 p {font-family: 'Roboto', sans-serif; font-size:32px;}
-
-h3 {font-weight: 900; background-color:yellow;}
-
-h6 {font-size:60px; margin: 0; color:white; background-color:black; line-height: 80px;display: inline;}
-
+footer a {font-size: 28px; text-decoration: none; color: black; background-color: yellow;}
 footer {font-size: 44px; font-family:'Coiny'; color:black; background-color: yellow;}
-footer a {width: 1px; font-size: 28px; display: inline; font-family: 'Roboto' sans-serif ; text-decoration: none; color: black; background-color: yellow;}
 img {width: 100%;} 
-ol {font-size: 2em;font-weight: 400; list-style-position: inside;}
-ul{list-style: none; margin: 0; padding: 0;}
+aside img {height: auto;width: 50%;}
 .item {font-size: 36px;font-weight: bold;background-color: #fcee21;}
-span{color: red;}
 input{height: 40px;}
 input, textarea {width: 100%; margin-bottom: 20px;}
 label {font-size: 24px;font-weight: bold; display: block;}
+
+
+
+
+
+
+
+ol {font-size: 2em;font-weight: 400; list-style-position: inside;}
+ul{list-style: none; margin: 0; padding: 0;}
+
+span{color: red;}
+
+
+
 
 .boton{width: auto;background-color: black;color: #fff;font-family: 'Roboto', sans-serif; font-weight: bold;}
 
@@ -38,4 +45,7 @@ label {font-size: 24px;font-weight: bold; display: block;}
 #redes {font-size: 30px;font-weight: bold; color: #808080;}
 
 section{width: 45%;}
-.imagenpartida {display:flex; justify-content: space-between;}
+#allado {display: block;}
+
+
+
